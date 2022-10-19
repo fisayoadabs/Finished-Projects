@@ -1,10 +1,3 @@
-# school_data.py
-# OLUWAFISAYO ADABS 30141541, ENDG 233 F21
-# A terminal-based application to process and plot data based on given user input and provided csv files.
-# You may only import numpy, matplotlib, and math. 
-# No other modules may be imported. Only built-in functions that support compound data structures, user entry, or casting may be used.
-# Remember to include docstrings for any functions/classes, and comments throughout your code.
-
 import numpy as np
 import matplotlib.pyplot as plt
 
