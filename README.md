@@ -15,3 +15,6 @@ The code imports three CSV files, `SchoolData_2018-2019.csv`, `SchoolData_2019-2
 
 ## Data Visualization
 The program does not contain any data visualization, but the imported `Matplotlib` library could be used to create visualizations of the enrollment data.
+
+# Author
+Oluwafisayo Adabs - fisayoadabs
