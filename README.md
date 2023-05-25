@@ -1,20 +1,32 @@
 # School Enrollment Statistics
 
-This Python code uses `NumPy` and `Matplotlib` libraries to import and visualize data related to the enrollment of high schools in the school district.
+This project is designed to analyze and visualize school enrollment statistics for a given set of data. It imports data from three different CSV files representing school enrollment data for the years 2018-2019, 2019-2020, and 2020-2021. The code allows users to input a school name or code and retrieves enrollment information for that specific school.
 
-## Class
-- `School`: A class that creates a school object with two attributes: `name` (string) representing the school's name, and `code` (integer) representing the school's code.
+## Instructions
 
-## Functions
-- `print_all_stats()`: A method of the `School` class that prints the name and code of the school instance.
+1. Ensure that the CSV files containing the school enrollment data are present in the same directory as this code file. The file names are:
+   - SchoolData_2018-2019.csv
+   - SchoolData_2019-2020.csv
+   - SchoolData_2020-2021.csv
 
-- `main()`: The main function that executes the program. It starts by printing a heading and then prompts the user for input of either a school name or code. It then verifies the user's input and prints the enrollment statistics for the selected school.
+2. Run the code.
 
-## Data Import
-The code imports three CSV files, `SchoolData_2018-2019.csv`, `SchoolData_2019-2020.csv`, and `SchoolData_2020-2021.csv`, which contain the enrollment data for each school in the district for the corresponding year. The data is loaded into three `NumPy` arrays: `School_data_2019`, `School_data_2020`, and `School_data_2021`.
+3. The program will display the prompt "Please enter a high school name or the school code." Enter the name or code of the school you want to retrieve enrollment statistics for. The code validates the input and displays an error message if the input is invalid.
 
-## Data Visualization
-The program does not contain any data visualization, but the imported `Matplotlib` library could be used to create visualizations of the enrollment data.
+4. Once a valid input is provided, the program will display the requested school's name and code, along with enrollment statistics.
 
-# Author
+5. Additionally, the program generates two sets of graphs:
+   - The first set shows scatter plots of the school's enrollment in grade 10, 11, and 12 for the years 2018-2019, 2019-2020, and 2020-2021.
+   - The second set includes three line plots for grade 10, 11, and 12 enrollment over the years 2019, 2020, and 2021.
+
+6. Review the enrollment statistics and graphs to gain insights into the school's enrollment trends over the years.
+
+**Note:** The code utilizes the NumPy and Matplotlib libraries, which should be installed for proper execution.
+
+*This code was created as part of the ENDG 233 course.*
+
+## Author
 Oluwafisayo Adabs - fisayoadabs
+
+## Date Completed 
+- November 2021
